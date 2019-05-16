@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Garage Motionn | @yield('addressBarTitle')</title>
+        <title>Garage Motionn |</title>
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible">
@@ -11,15 +11,16 @@
         {{-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> --}}
         {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> --}}
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+        
+        {{-- <link rel="stylesheet" href="{{ asset('css/animate.css') }}"> --}}
         <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         {{-- <link rel="stylesheet" href="{{ asset('/css/fontawesome-stars-o.css') }}"> --}}
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        {{-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest"> --}}
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        {{-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> --}}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+        {{-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> --}}
+        {{-- <link rel="manifest" href="/site.webmanifest"> --}}
+        {{-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> --}}
         <meta name="msapplication-TileColor" content="#2b5797">
         <meta name="theme-color" content="#ffffff">
-
     </head>

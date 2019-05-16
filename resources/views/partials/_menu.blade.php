@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top" id="navscroll">
+{{-- <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top" id="navscroll">
     <a class="navbar-brand" href="/"><img class="img-fluid imgheader" src="\img\lobstr_logo_square.png" alt="lobster"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,4 +34,4 @@
 
 @include('/partials/menu/_form_login')
 @include('/partials/menu/_form_logout')
-@include('/partials/menu/_form_register')
+@include('/partials/menu/_form_register') --}}
