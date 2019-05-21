@@ -12,8 +12,9 @@
         {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> --}}
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
         
-        {{-- <link rel="stylesheet" href="{{ asset('css/animate.css') }}"> --}}
+        {{-- <link rel="stylesheet" href="{{ asset('css/anime.css') }}"> --}}
         <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+        {{-- <link rel="stylesheet" href="{{ asset('css/animate.css') }}"> --}}
         <link rel="stylesheet" href="{{ asset('css/main.css') }}">
         {{-- <link rel="stylesheet" href="{{ asset('/css/fontawesome-stars-o.css') }}"> --}}
         {{-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> --}}

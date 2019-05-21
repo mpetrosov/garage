@@ -2,7 +2,7 @@
 
     <body>
         <div class="container-fluid">
-            @yield('navbar')
+            @yield('head')
         </div>
         <div class="container-fluid">
             @yield('header')
@@ -19,6 +19,12 @@
                     @yield('gridonder')
                 </div>
             </div>
+        </div>
+        <div class="container">
+            @yield('car')
+        </div>
+        <div class="container-fluid">
+            @yield('funny-logo')
         </div>
         @include('footer')
     </body>
