@@ -1,5 +1,8 @@
 @extends('master')
 @section('head')
+<div class="row">
+  <div class="col-4"></div>
+</div>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark own-color">
     {{-- <div class="container"> --}}
         
