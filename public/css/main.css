@@ -8,7 +8,7 @@ body::after {
     background-size: cover; 
     background-attachment: fixed;
     content: "";
-    opacity: 0.06;
+    opacity: 0.09;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -103,31 +103,16 @@ h4:hover{
 /*
 Carousel
 */
-.carousel-control-prev-icon,
+.carousel-control-prev-icon{
+  height: 50px;
+  width: 50px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  /* outline: black; */
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  /* border: 1px solid black; */
-  background-image: none;
-}
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: bold;
-  font-size: 40px;
-  color: #FF0000;
-}
-
-.carousel-control-prev-icon:after {
-  font-style: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 40px;
-  content: '<';
-  color: #FF0000;
+  height: 50px;
+  width: 50px;
+  background-color: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 .custom-carousel{
@@ -202,6 +187,8 @@ Carousel
 .three {
   animation: circle 2s infinite linear;
 } */
+
+
 
 /* car-------------------------------------- */
 
@@ -427,7 +414,7 @@ transform: rotate(-9deg);
 .a-container {
   background-color: transparent;
   text-align: center;
-  position: absolute;
+  /* position: absolute; */
   background-color: transparent;
   /* top: 90%;
   left: 50%; */
