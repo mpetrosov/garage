@@ -72,26 +72,50 @@
     </div>
 </div>
 
-<!--/.Carousel Wrapper-->
+<!--Carousel Wrapper-->
 @endsection
 @section('gridboven')
     
     <div class="row text-center">
         <div class="col-lg shadow rounded client inner p-0">
-            <img src="{{URL::asset('/img/motor.jpg')}}" class="p-0" alt="profile Pic" height="200" width="300">
-            <div class="carousel-caption client-align"><h2 class="my-auto">Inspectie en Reparatie Motor</h2></div>
+            <div class="hovereffect">
+                <img src="{{URL::asset('/img/motor.jpg')}}" class="img-responsive" alt="profile Pic" height="200" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Inspectie en Reparatie Motor</h2>
+                    <a class="info" href="#">maak afspaak</a>
+                </div>
+            </div>
+            {{-- <div class="btnD"><button class="btn btn-outline-danger">More..</button></div> --}}
         </div>
         <div class="col-lg shadow rounded client ml-2 inner p-0">
-            <img src="{{URL::asset('/img/Turbo.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
-            <div class="carousel-caption"><h2>Turbo Revisie en Reparatie</h2></div>
+            <div class="hovereffect">
+                    <img src="{{URL::asset('/img/Turbo.jpg')}}" class="img-responsive" alt="profile Pic" height="200" width="300">
+                <div class="overlay">
+                   <h2 class="mt-4">Turbo Revisie en Reparatie</h2>
+                    <a class="info" href="#">maak afspaak</a>
+                </div>
+            </div>
+             {{-- <div class="btnD"><button class="btn btn-outline-danger">More..</button></div> --}}
         </div>
         <div class="col-lg shadow rounded client ml-2 inner p-0">
-            <img src="{{URL::asset('/img/computer diagnostic.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
-            <div class="carousel-caption"><h2> Uitlezen van Foutcodes</h2></div>
+            <div class="hovereffect">
+                    <img src="{{URL::asset('/img/computer diagnostic.jpg')}}" class="img-responsive" alt="profile Pic" height="200" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Uitlezen van Foutcodes</h2>
+                    <a class="info" href="#">maak afspaak</a>
+                </div>
+            </div>
+             {{-- <div class="btnD"><button class="btn btn-outline-danger">More..</button></div> --}}
         </div>
-        <div class="col shadow rounded client ml-2 inner p-0">
-            <img src="{{URL::asset('/img/schadeherstel.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
-            <div class="carousel-caption"><h2>Schadeherstel en Spuitwerk</h2></div>
+        <div class="col-lg shadow rounded client ml-2 inner p-0">
+            <div class="hovereffect">
+                    <img src="{{URL::asset('/img/schadeherstel.jpg')}}" class="img-responsive" alt="profile Pic" height="200" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Schadeherstel en Spuitwerk</h2>
+                    <a class="info" href="#">maak afspaak</a>
+                </div>
+            </div>
+             {{-- <div class="btnD"><button class="btn btn-outline-danger">More..</button></div> --}}
         </div>
     </div>
     
@@ -100,15 +124,25 @@
 @section('content')
      <div class="row text-center">
         <div class="col-3 shadow rounded client mr-2 inner p-0">
-            <img src="{{URL::asset('/img/ophanging.png')}}" class="rounded" alt="profile Pic" height="400" width="300">
-            <div class="carousel-caption"><h2 class="client-align">Inspectie en Reparatie Ophanging</h2></div>
+            <div class="hovereffect">
+                <img src="{{URL::asset('/img/ophanging.png')}}" class="rounded" alt="profile Pic" height="400" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Inspectie en Reparatie Ophanging</h2>
+                    <a class="info" href="#">link here</a>
+                </div>      
+            </div>
         </div>
         <div class="col ml-1 mr-1 shadow rounded client inner p-0 ">
             <img src="{{URL::asset('/img/bigpic.jpg')}}" alt="profile Pic" height="400" width="720">
         </div>
         <div class="col-3 shadow rounded client ml-2 inner p-0">
-            <img src="{{URL::asset('/img/airco.jpg')}}" class="rounded" alt="profile Pic" height="400" width="300">
-            <div class="carousel-caption"><h2>Airco service</h2></div>
+            <div class="hovereffect">
+                    <img src="{{URL::asset('/img/airco.jpg')}}" class="rounded" alt="profile Pic" height="400" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Airco service</h2>
+                    <a class="info" href="#">link here</a>
+                </div>      
+            </div>
         </div>
     </div>
         <!--/row-->
@@ -117,21 +151,41 @@
 @section('gridonder')
     <div class="row text-center">
         <div class="col-lg shadow rounded client inner p-0">
-            <img src="{{URL::asset('/img/treshina-lobovogo-stekla.jpg')}}" alt="profile Pic" height="200" width="300">
-            <div class="carousel-caption"><h2>Ruitreparatie</h2></div>
+            <div class="hovereffect">
+                    <img src="{{URL::asset('/img/treshina-lobovogo-stekla.jpg')}}" alt="profile Pic" height="200" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Ruitreparatie</h2>
+                    <a class="info" href="#">link here</a>
+                </div>      
+            </div>
         </div>
                
         <div class="col-lg shadow rounded client ml-2 inner p-0">
-            <img src="{{URL::asset('/img/onderhoud.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
-            <div class="carousel-caption"><h2>Onderhoud</h2></div>
+            <div class="hovereffect">
+                    <img src="{{URL::asset('/img/onderhoud.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Onderhoud</h2>
+                    <a class="info" href="#">link here</a>
+                </div>      
+            </div>
         </div>
         <div class="col-lg shadow rounded client ml-2 inner p-0">
-                <img src="{{URL::asset('/img/Injectiesysteem Reinigen.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
-            <div class="carousel-caption"><h2>Brandstofsysteem Reinigen</h2></div>
+            <div class="hovereffect">
+                    <img src="{{URL::asset('/img/Injectiesysteem Reinigen.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Brandstofsysteem Reinigen</h2>
+                    <a class="info" href="#">link here</a>
+                </div>      
+            </div>
         </div>
         <div class="col-lg shadow rounded client ml-2 inner p-0">
-            <img src="{{URL::asset('/img/Koplampen polijsten 3.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
-            <div class="carousel-caption"><h2>Koplampen Polijsten</h2></div>
+            <div class="hovereffect">
+                    <img src="{{URL::asset('/img/Koplampen polijsten 3.jpg')}}" class="rounded" alt="profile Pic" height="200" width="300">
+                <div class="overlay">
+                    <h2 class="mt-4">Koplampen Polijsten</h2>
+                    <a class="info" href="#">link here</a>
+                </div>      
+            </div>
         </div>
     </div>
     {{-- <div class="row justify-content-center"> --}}
