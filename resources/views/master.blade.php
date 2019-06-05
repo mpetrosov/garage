@@ -7,7 +7,7 @@
         <div class="container">
             @yield('header')
         </div>
-        <div class="container p -0">
+        <div class="container">
             <div class="container mx-15">
                 @yield('gridboven')
             </div>
@@ -22,7 +22,7 @@
             @yield('car')
         </div>
         <div class="container">
-            @yield('funny-logo')
+            @yield('footer')
         </div>
         @include('footer')
     </body>
