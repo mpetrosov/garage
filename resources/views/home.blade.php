@@ -141,10 +141,10 @@
         </div>
         <div class="col-lg shadow rounded client ml-2 inner p-0">
             <div class="hovereffect">
-                    <img src="{{URL::asset('/img/schadeherstel.jpg')}}" class="img-responsive" alt="profile Pic" height="200" width="300">
+                    <img src="{{URL::asset('/img/tires.jpg')}}" class="img-responsive" alt="profile Pic" height="200" width="300">
                 <div class="overlay">
-                    <h2 class="mt-4">Schadeherstel en Spuitwerk</h2>
-                    <a class="info" href="http://motionn.nl/service/schadeherstel-en-spuitwerk">Meer...</a>
+                    <h2 class="mt-4">Gebruikte banden</h2>
+                    <a class="info" href="https://www.marktplaats.nl/a/auto-onderdelen/banden-en-velgen/m979784992-gebruikte-banden-all-season-zomer-13-14-15-16-17-18-inch.html?c=3c1f5dcc18d02a99040ca8de656940d2&previousPage=lr">Meer...</a>
                 </div>
             </div>
              {{-- <div class="btnD"><button class="btn btn-outline-danger">More..</button></div> --}}
