@@ -200,9 +200,9 @@ h4:hover{
 
 .b-hovereffect h2 {
   text-transform: uppercase;
-  color: #fff;
+  color: #FF0000;
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   padding: 10px;
 }
 
@@ -232,7 +232,7 @@ h4:hover{
   width: 50%;
   opacity: 0;
   filter: alpha(opacity=0);
-  border: 3px solid #FFF;
+  border: 3px solid #FF0000;
 }
 
 .b-hovereffect  hr:nth-child(3) {
@@ -731,19 +731,19 @@ transform: rotate(-9deg);
 /* blij anime */
 
 
-.a-container {
+/* .a-container {
   background-color: transparent;
   text-align: center;
-  /* position: absolute; */
+  position: absolute;
   background-color: transparent;
-  /* top: 90%;
-  left: 50%; */
+  top: 90%;
+  left: 50%;
   transform: translate(-5%, 10%);
-}
+} */
 
-.a-container span {
+/* .a-container span {
   text-transform: uppercase;
-  /* display: block; */
+  display: block;
 }
 
 .text1 {
@@ -782,7 +782,7 @@ transform: rotate(-9deg);
     letter-spacing: 8px;
     margin-bottom: 10px;
   }
-}
+} */
 
 .footer-contact{
   font-display: none;

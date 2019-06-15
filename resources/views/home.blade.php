@@ -193,7 +193,7 @@
         </div>
         <div class="col-3 shadow rounded client ml-2 inner p-0">
             <div class="hovereffect">
-                    <img src="{{URL::asset('/img/airco.jpg')}}" class="rounded img-responsive" alt="profile Pic" height="400" width="300">
+                    <img src="{{URL::asset('/img/airco.jpeg')}}" class="rounded img-responsive" alt="profile Pic" height="400" width="300">
                 <div class="overlay">
                     <h2 class="mt-4">Airco service</h2>
                     <a class="info" href="http://motionn.nl/service/airco">Meer...</a>

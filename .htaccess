@@ -1,0 +1,10 @@
+#Options +SymLinksIfOwnerMatch
+Options +FollowSymLinks
+RewriteEngine On
+
+# Serve files, such as "data.json", "css/style.css" or 
+# js/jquery.js directly, thus, do not send it to php.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^ index.php [L]
